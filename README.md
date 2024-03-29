@@ -1,3 +1,6 @@
 # Student Grades Prediction
 This repository contains an analysis of data of students to predict the factors impacting their grades. First we have refined the dataset to be able to use it to train a model, and visualized it to identify observable connections. After data processing, we have used several models to identify the factors affecting the grades of students, i.e. Linear Regression, K-Nearest Neighbour, Decision Trees, Random Forests and Gradient Boosting. First we have used linear regression to predict the scores of the students but since it didn't produce much accuracy, we have categorized the scores to four grades, which makes it quite realistic to categorize the scores to these grades. For each model, we have used best parameters obtained by grid search and calculated accuracy score.
 At the end, we have visualized the feature importances by graphing them in a bar graph.
+
+- Best Accuracy is achieved from the Gradient Boosting model.
+- Accuracy score is 43.17%
